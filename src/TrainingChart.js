@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class TrainingChart extends Component {
+export default class TrainingChart extends Component {
   render() {
     return (
       <div className="TrainingChart">
@@ -10,4 +10,3 @@ class TrainingChart extends Component {
   }
 }
 
-export default TrainingChart;
